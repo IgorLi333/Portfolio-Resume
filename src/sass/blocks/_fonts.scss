@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'Gilroy Light';
+  src: url('../fonts/Light/Gilroy-Light.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  }
+@mixin lightM {
+  font-family: 'Gilroy Light', sans-serif;
+  font-weight: 300;
+}
+// _____________________________________________________________________________ 
+@font-face {
+  font-family: 'Gilroy Regular';
+  src: url('../fonts/Regular/Gilroy-Regular.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  }
+@mixin regM {
+  font-family: 'Gilroy Regular', sans-serif;
+  font-weight: 300;
+}
+// _____________________________________________________________________________ 
+@font-face {
+  font-family: 'Gilroy Bold';
+  src: url('../fonts/Bold/Gilroy-Bold.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  }
+
+@mixin boldM {
+  font-family: 'Gilroy Bold', sans-serif;
+  font-weight: 700;
+}
+// _____________________________________________________________________________ 
+@font-face {
+  font-family: 'Gilroy Black';
+  src: url('../fonts/Black/Gilroy-Black.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  }
+
+@mixin MBlc {
+  font-family: 'Gilroy Black', sans-serif;
+  font-weight: 900;
+}
+// _____________________________________________________________________________ 
+@font-face {
+  font-family: 'Gilroy BoldItalic';
+  src: url('../fonts/BoldIt/Gilroy-BoldItalic.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  }
+
+@mixin MBIt {
+  font-family: 'Montserrat BoldItalic', sans-serif;
+  font-weight: 700;
+}
+// _____________________________________________________________________________ 
+@font-face {
+  font-family: 'Gilroy ExtraBold';
+  src: url('../fonts/Extrabld/Gilroy-ExtraBold.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+@mixin MEbld {
+  font-family: 'Gilroy ExtraBold', sans-serif;
+  font-weight: 700;
+}
+// _____________________________________________________________________________ 
+// @font-face {
+//   font-family: 'Proxima Nova RegularIt';
+//   src: url('../fonts/RegularIt/ProximaNova-RegularIt.woff') format('truetype');
+//   font-weight: normal;
+//   font-style: normal;
+//   }
+
+// @mixin regNRIt {
+//   font-family: 'Proxima Nova RegularIt', sans-serif;
+//   font-weight: 700;
+// }
+// _____________________________________________________________________________ 
+
+@font-face {
+  font-family: 'Montserrat SemiBold';
+  src: url('../fonts/Semibold/Montserrat-SemiBold.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  }
+
+@mixin MSB {
+  font-family: 'Montserrat SemiBold', sans-serif;
+  font-weight: 700;
+}
+// _____________________________________________________________________________ 

@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-resume",
+  "version": "1.0.0",
+  "description": "Мой сайт-визитка",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorLi333/Portfolio-Resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorLi333/Portfolio-Resume/issues"
+  },
+  "homepage": "https://github.com/IgorLi333/Portfolio-Resume#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

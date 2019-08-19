@@ -1,0 +1,43 @@
+*
+  box-sizing: border-box
+body
+  background-color: $main-color
+.container
+  width: 1170px
+  margin: auto
+  // background-color: green
+  // background-color: yellow
+  // background-color: red
+
+@media (max-width: 1200px)
+  .container
+    max-width: 768px
+@media (max-width: 992px)
+  .container
+    max-width: 768px
+@media (max-width: 768px)
+  .container
+    max-width: 567px
+    width: 90%
+@media (max-width: 567px)
+  .container
+    max-width: 320px
+    width: 85%
+
+.button
+  border-radius: 50px
+  background-color: red
+  color: $text-color-white
+  padding: 7px 12px
+  outline: 0 !important
+  cursor: pointer
+  +regM
+  &:hover
+    background-color: darken($hover-color, 30%)
+
+// .title
+//   font-size: 3em
+// .subtitle
+//   font-size: 2em
+// .description
+//   font-size: 1em

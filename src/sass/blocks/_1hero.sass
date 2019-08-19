@@ -1,0 +1,94 @@
+.hero
+  height: 100vh
+  position: relative
+  background: url('../img/hero/bg1.jpg')
+  background-color: #222222
+  background-attachment: fixed
+  background-repeat: no-repeat
+  background-position: 50%, 50%
+  background-size: cover
+  // padding: 230px 0
+  &-overlay
+    background-color: rgba(44, 62, 80, 0.4)
+    background-image: url('../img/hero/pattern.png')
+    background-repeat: repeat
+    position: absolute
+    height: 100%
+    left: 0
+    top: 0
+    width: 100%
+    z-index: 0
+  &-scrolldown
+    position: absolute
+    left: 50%
+    bottom: 40px
+    border: 2px solid $text-color-white
+    border-radius: 50%
+    height: 50px
+    width: 50px
+    margin-left: -15px
+    display: block
+    z-index: 10
+    text-align: center
+    &__block
+      position: relative
+      color: $text-color-white
+      animation-name: drop
+      animation-duration: 1s
+      animation-timing-function: linear
+      animation-delay: 0s
+      animation-iteration-count: infinite
+      animation-play-state: running
+    &__arrow
+      display: inline-block
+      font-size: 1em
+      text-rendering: auto
+      transform: translate(0, 0)
+      &:before
+        content: '\003C'
+        transform: rotateX('angle')
+  &-text
+    position: absolute
+    width: 100%
+    top: 25%
+    left: 0
+    text-align: center
+    color: $text-color-white
+    margin: 0
+    z-index: 1
+    font-size: 20px
+    &__title
+      font-size: 5em
+      +MBlc
+      margin: 0
+      padding-bottom: 0.2em
+    &__subtitle
+      font-size: 1.5em
+      +regM
+      margin: 0
+      margin-bottom: 2.5em
+    &__button
+      text-transform: uppercase
+      text-decoration: none
+      background-color: red
+      color: $text-color-white
+      font-size: 0.8em
+      +regM
+      padding: 1em 2em
+      margin: 0
+    
+@media (max-width: 1200px)
+  .hero
+    &-text
+      font-size: 18px
+    
+    
+// @media (max-width: 768px)
+//   .hero
+//     &-text
+//       font-size: 18px
+        
+@media (max-width: 567px)
+  .hero
+    &-text
+      font-size: 15px
